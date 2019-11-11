@@ -15,7 +15,64 @@
 		E9D965D223795E2200B70F51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D965D023795E2200B70F51 /* LaunchScreen.storyboard */; };
 		E9D965DB23795E9A00B70F51 /* Vacation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D965DA23795E9A00B70F51 /* Vacation.swift */; };
 		E9D965DD23795EB400B70F51 /* VacationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D965DC23795EB400B70F51 /* VacationDetailView.swift */; };
+		E9D965E42379600100B70F51 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D965E22379600100B70F51 /* Interface.storyboard */; };
+		E9D965E62379600100B70F51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9D965E52379600100B70F51 /* Assets.xcassets */; };
+		E9D965ED2379600100B70F51 /* hMD SwiftUI Platforms watchOS Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E9D965EC2379600100B70F51 /* hMD SwiftUI Platforms watchOS Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E9D965F22379600100B70F51 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D965F12379600100B70F51 /* HomeView.swift */; };
+		E9D965F42379600100B70F51 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D965F32379600100B70F51 /* HostingController.swift */; };
+		E9D965F62379600100B70F51 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D965F52379600100B70F51 /* ExtensionDelegate.swift */; };
+		E9D965F82379600200B70F51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9D965F72379600200B70F51 /* Assets.xcassets */; };
+		E9D965FB2379600200B70F51 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9D965FA2379600200B70F51 /* Preview Assets.xcassets */; };
+		E9D965FF2379600200B70F51 /* hMD SwiftUI Platforms watchOS.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E9D965E02379600100B70F51 /* hMD SwiftUI Platforms watchOS.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E9D966092379603F00B70F51 /* WatchVacationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D966082379603F00B70F51 /* WatchVacationDetailView.swift */; };
+		E9D9660A2379605800B70F51 /* Vacation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D965DA23795E9A00B70F51 /* Vacation.swift */; };
+		E9D9660D2379619A00B70F51 /* VacationImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9D9660C2379619A00B70F51 /* VacationImages.xcassets */; };
+		E9D9660E2379619A00B70F51 /* VacationImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9D9660C2379619A00B70F51 /* VacationImages.xcassets */; };
+		E9D9660F2379671900B70F51 /* VacationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D965C923795E1F00B70F51 /* VacationListView.swift */; };
+		E9D966102379673500B70F51 /* VacationImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9D9660C2379619A00B70F51 /* VacationImages.xcassets */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9D965EE2379600100B70F51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9D965BA23795E1F00B70F51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9D965EB2379600100B70F51;
+			remoteInfo = "hMD SwiftUI Platforms watchOS Extension";
+		};
+		E9D965FD2379600200B70F51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9D965BA23795E1F00B70F51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9D965DF2379600100B70F51;
+			remoteInfo = "hMD SwiftUI Platforms watchOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E9D966032379600200B70F51 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E9D965ED2379600100B70F51 /* hMD SwiftUI Platforms watchOS Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D966072379600200B70F51 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				E9D965FF2379600200B70F51 /* hMD SwiftUI Platforms watchOS.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		E9D965C223795E1F00B70F51 /* hMD SwiftUI Platforms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hMD SwiftUI Platforms.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -28,10 +85,30 @@
 		E9D965D323795E2200B70F51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9D965DA23795E9A00B70F51 /* Vacation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vacation.swift; sourceTree = "<group>"; };
 		E9D965DC23795EB400B70F51 /* VacationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacationDetailView.swift; sourceTree = "<group>"; };
+		E9D965E02379600100B70F51 /* hMD SwiftUI Platforms watchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hMD SwiftUI Platforms watchOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9D965E32379600100B70F51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		E9D965E52379600100B70F51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9D965E72379600100B70F51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9D965EC2379600100B70F51 /* hMD SwiftUI Platforms watchOS Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "hMD SwiftUI Platforms watchOS Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9D965F12379600100B70F51 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E9D965F32379600100B70F51 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		E9D965F52379600100B70F51 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		E9D965F72379600200B70F51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9D965FA2379600200B70F51 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E9D965FC2379600200B70F51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9D966082379603F00B70F51 /* WatchVacationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchVacationDetailView.swift; sourceTree = "<group>"; };
+		E9D9660C2379619A00B70F51 /* VacationImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = VacationImages.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E9D965BF23795E1F00B70F51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D965E92379600100B70F51 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,6 +122,8 @@
 			isa = PBXGroup;
 			children = (
 				E9D965C423795E1F00B70F51 /* hMD SwiftUI Platforms */,
+				E9D965E12379600100B70F51 /* hMD SwiftUI Platforms watchOS */,
+				E9D965F02379600100B70F51 /* hMD SwiftUI Platforms watchOS Extension */,
 				E9D965C323795E1F00B70F51 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,6 +132,8 @@
 			isa = PBXGroup;
 			children = (
 				E9D965C223795E1F00B70F51 /* hMD SwiftUI Platforms.app */,
+				E9D965E02379600100B70F51 /* hMD SwiftUI Platforms watchOS.app */,
+				E9D965EC2379600100B70F51 /* hMD SwiftUI Platforms watchOS Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,6 +147,7 @@
 				E9D965DC23795EB400B70F51 /* VacationDetailView.swift */,
 				E9D965D923795E7900B70F51 /* Model */,
 				E9D965CB23795E2200B70F51 /* Assets.xcassets */,
+				E9D9660C2379619A00B70F51 /* VacationImages.xcassets */,
 				E9D965D023795E2200B70F51 /* LaunchScreen.storyboard */,
 				E9D965D323795E2200B70F51 /* Info.plist */,
 				E9D965CD23795E2200B70F51 /* Preview Content */,
@@ -89,6 +171,38 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		E9D965E12379600100B70F51 /* hMD SwiftUI Platforms watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				E9D965E22379600100B70F51 /* Interface.storyboard */,
+				E9D965E52379600100B70F51 /* Assets.xcassets */,
+				E9D965E72379600100B70F51 /* Info.plist */,
+			);
+			path = "hMD SwiftUI Platforms watchOS";
+			sourceTree = "<group>";
+		};
+		E9D965F02379600100B70F51 /* hMD SwiftUI Platforms watchOS Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E9D965F12379600100B70F51 /* HomeView.swift */,
+				E9D966082379603F00B70F51 /* WatchVacationDetailView.swift */,
+				E9D965F32379600100B70F51 /* HostingController.swift */,
+				E9D965F52379600100B70F51 /* ExtensionDelegate.swift */,
+				E9D965F72379600200B70F51 /* Assets.xcassets */,
+				E9D965FC2379600200B70F51 /* Info.plist */,
+				E9D965F92379600200B70F51 /* Preview Content */,
+			);
+			path = "hMD SwiftUI Platforms watchOS Extension";
+			sourceTree = "<group>";
+		};
+		E9D965F92379600200B70F51 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E9D965FA2379600200B70F51 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,15 +213,51 @@
 				E9D965BE23795E1F00B70F51 /* Sources */,
 				E9D965BF23795E1F00B70F51 /* Frameworks */,
 				E9D965C023795E1F00B70F51 /* Resources */,
+				E9D966072379600200B70F51 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E9D965FE2379600200B70F51 /* PBXTargetDependency */,
 			);
 			name = "hMD SwiftUI Platforms";
 			productName = "hMD SwiftUI Platforms";
 			productReference = E9D965C223795E1F00B70F51 /* hMD SwiftUI Platforms.app */;
 			productType = "com.apple.product-type.application";
+		};
+		E9D965DF2379600100B70F51 /* hMD SwiftUI Platforms watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9D966042379600200B70F51 /* Build configuration list for PBXNativeTarget "hMD SwiftUI Platforms watchOS" */;
+			buildPhases = (
+				E9D965DE2379600100B70F51 /* Resources */,
+				E9D966032379600200B70F51 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9D965EF2379600100B70F51 /* PBXTargetDependency */,
+			);
+			name = "hMD SwiftUI Platforms watchOS";
+			productName = "hMD SwiftUI Platforms watchOS";
+			productReference = E9D965E02379600100B70F51 /* hMD SwiftUI Platforms watchOS.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		E9D965EB2379600100B70F51 /* hMD SwiftUI Platforms watchOS Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9D966002379600200B70F51 /* Build configuration list for PBXNativeTarget "hMD SwiftUI Platforms watchOS Extension" */;
+			buildPhases = (
+				E9D965E82379600100B70F51 /* Sources */,
+				E9D965E92379600100B70F51 /* Frameworks */,
+				E9D965EA2379600100B70F51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hMD SwiftUI Platforms watchOS Extension";
+			productName = "hMD SwiftUI Platforms watchOS Extension";
+			productReference = E9D965EC2379600100B70F51 /* hMD SwiftUI Platforms watchOS Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -120,6 +270,12 @@
 				ORGANIZATIONNAME = "Thomas Sillmann";
 				TargetAttributes = {
 					E9D965C123795E1F00B70F51 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					E9D965DF2379600100B70F51 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					E9D965EB2379600100B70F51 = {
 						CreatedOnToolsVersion = 11.2;
 					};
 				};
@@ -138,6 +294,8 @@
 			projectRoot = "";
 			targets = (
 				E9D965C123795E1F00B70F51 /* hMD SwiftUI Platforms */,
+				E9D965DF2379600100B70F51 /* hMD SwiftUI Platforms watchOS */,
+				E9D965EB2379600100B70F51 /* hMD SwiftUI Platforms watchOS Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -149,7 +307,28 @@
 			files = (
 				E9D965D223795E2200B70F51 /* LaunchScreen.storyboard in Resources */,
 				E9D965CF23795E2200B70F51 /* Preview Assets.xcassets in Resources */,
+				E9D9660D2379619A00B70F51 /* VacationImages.xcassets in Resources */,
 				E9D965CC23795E2200B70F51 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D965DE2379600100B70F51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D965E62379600100B70F51 /* Assets.xcassets in Resources */,
+				E9D965E42379600100B70F51 /* Interface.storyboard in Resources */,
+				E9D9660E2379619A00B70F51 /* VacationImages.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D965EA2379600100B70F51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D965FB2379600200B70F51 /* Preview Assets.xcassets in Resources */,
+				E9D965F82379600200B70F51 /* Assets.xcassets in Resources */,
+				E9D966102379673500B70F51 /* VacationImages.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,7 +347,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E9D965E82379600100B70F51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D9660A2379605800B70F51 /* Vacation.swift in Sources */,
+				E9D965F42379600100B70F51 /* HostingController.swift in Sources */,
+				E9D965F22379600100B70F51 /* HomeView.swift in Sources */,
+				E9D966092379603F00B70F51 /* WatchVacationDetailView.swift in Sources */,
+				E9D965F62379600100B70F51 /* ExtensionDelegate.swift in Sources */,
+				E9D9660F2379671900B70F51 /* VacationListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9D965EF2379600100B70F51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9D965EB2379600100B70F51 /* hMD SwiftUI Platforms watchOS Extension */;
+			targetProxy = E9D965EE2379600100B70F51 /* PBXContainerItemProxy */;
+		};
+		E9D965FE2379600200B70F51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9D965DF2379600100B70F51 /* hMD SwiftUI Platforms watchOS */;
+			targetProxy = E9D965FD2379600200B70F51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E9D965D023795E2200B70F51 /* LaunchScreen.storyboard */ = {
@@ -177,6 +382,14 @@
 				E9D965D123795E2200B70F51 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E9D965E22379600100B70F51 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9D965E32379600100B70F51 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -336,6 +549,92 @@
 			};
 			name = Release;
 		};
+		E9D966012379600200B70F51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"hMD SwiftUI Platforms watchOS Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 2S49FR3REP;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "hMD SwiftUI Platforms watchOS Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.thomassillmann.hMD-SwiftUI-Platforms.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		E9D966022379600200B70F51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"hMD SwiftUI Platforms watchOS Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 2S49FR3REP;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "hMD SwiftUI Platforms watchOS Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.thomassillmann.hMD-SwiftUI-Platforms.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		E9D966052379600200B70F51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2S49FR3REP;
+				IBSC_MODULE = hMD_SwiftUI_Platforms_watchOS_Extension;
+				INFOPLIST_FILE = "hMD SwiftUI Platforms watchOS/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.thomassillmann.hMD-SwiftUI-Platforms.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		E9D966062379600200B70F51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2S49FR3REP;
+				IBSC_MODULE = hMD_SwiftUI_Platforms_watchOS_Extension;
+				INFOPLIST_FILE = "hMD SwiftUI Platforms watchOS/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.thomassillmann.hMD-SwiftUI-Platforms.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -353,6 +652,24 @@
 			buildConfigurations = (
 				E9D965D723795E2200B70F51 /* Debug */,
 				E9D965D823795E2200B70F51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9D966002379600200B70F51 /* Build configuration list for PBXNativeTarget "hMD SwiftUI Platforms watchOS Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D966012379600200B70F51 /* Debug */,
+				E9D966022379600200B70F51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9D966042379600200B70F51 /* Build configuration list for PBXNativeTarget "hMD SwiftUI Platforms watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D966052379600200B70F51 /* Debug */,
+				E9D966062379600200B70F51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
